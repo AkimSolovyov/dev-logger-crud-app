@@ -1,3 +1,18 @@
 .log-date {
   color: #777;
 }
+
+.list-group-item {
+  display: flex;
+}
+
+.list-group-item a,
+.list-group-item span {
+  flex: 1 1 48%;
+}
+
+.list-group-item a {
+  overflow: hidden;
+  margin-right: 5px;
+  text-overflow: ellipsis;
+}
